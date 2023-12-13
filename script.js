@@ -1,8 +1,8 @@
-const categories = ['Countries Who Share the Same Name as Their Capital City', 'Island Nations', 'Countries with Red, White, and Blue Flags', 'Balkan Countries'];
+const categories = ['The "Stans"', 'Island Nations', 'Countries with Red, White, and Blue Flags', 'Balkan Countries'];
 
 let words = [
-    // Category 1: Countries Who Share the Same Name as Their Capital City
-    'Andorra', 'Vatican City', 'Monaco', 'Luxembourg',
+    // Category 1: The "Stans"
+    'Uzbekistan', 'Turkmenistan', 'Tajikistan', 'Kyrgyzstan',
     // Category 2: Island Nations
     'Japan', 'Madagascar', 'New Zealand', 'Sri Lanka',
     // Category 3: Countries with Red, White, and Blue Flags
@@ -111,8 +111,6 @@ function checkGuess() {
     }, 0); // Using a very short timeout (0 milliseconds) to let the visual update occur
 }
 
-
-
 function getCategoryForWord(word) {
     // Find the category to which the word belongs
     for (const category of categories) {
@@ -126,7 +124,7 @@ function getCategoryForWord(word) {
 // ...
 
 const wordsByCategory = {
-    'Countries Who Share the Same Name as Their Capital City': ['Andorra', 'Vatican City', 'Monaco', 'Luxembourg'],
+    'The "Stans"': ['Uzbekistan', 'Turkmenistan', 'Tajikistan', 'Kyrgyzstan'],
     'Island Nations': ['Japan', 'Madagascar', 'New Zealand', 'Sri Lanka'],
     'Countries with Red, White, and Blue Flags': ['Chile', 'USA', 'Costa Rica', 'France'],
     'Balkan Countries': ['Croatia', 'Greece', 'Albania', 'Montenegro']
@@ -140,6 +138,7 @@ function removeSelectedWords() {
 
 // Start the game when the page loads
 document.addEventListener('DOMContentLoaded', startGame);
+
 
 
 
