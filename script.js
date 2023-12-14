@@ -1,14 +1,14 @@
-const categories = ['The "Stans"', 'Island Nations', 'Countries with Red, White, and Blue Flags', 'Balkan Countries'];
+const categories = ['WW2 Leaders First Names', 'College Mascot Names', '3 Named Assassins Middle Names', 'Olympic Gold Medalists Last Names'];
 
 let words = [
-    // Category 1: The "Stans"
-    'Uzbekistan', 'Turkmenistan', 'Tajikistan', 'Kyrgyzstan',
-    // Category 2: Island Nations
-    'Japan', 'Madagascar', 'New Zealand', 'Sri Lanka',
-    // Category 3: Countries with Red, White, and Blue Flags
-    'Chile', 'USA', 'Costa Rica', 'France',
-    // Category 4: Balkan Countries
-    'Croatia', 'Greece', 'Albania', 'Montenegro'
+    // Category 1: WW2 Leaders First Names
+    'Winston', 'Joseph', 'Franklin', 'Adolf',
+    // Category 2: College Mascot Names
+    'Alberta', 'Uga', 'Osceola', 'Buzz',
+    // Category 3: 3 Named Assassins Middle Names
+    'Harvey', 'Earl', 'Wilkes', 'David',
+    // Category 4: Olympic Gold Medalists Last Names
+    'Bolt', 'White', 'Douglas', 'Ohno'
     // Add more words as needed
 ];
 
@@ -124,10 +124,10 @@ function getCategoryForWord(word) {
 // ...
 
 const wordsByCategory = {
-    'The "Stans"': ['Uzbekistan', 'Turkmenistan', 'Tajikistan', 'Kyrgyzstan'],
-    'Island Nations': ['Japan', 'Madagascar', 'New Zealand', 'Sri Lanka'],
-    'Countries with Red, White, and Blue Flags': ['Chile', 'USA', 'Costa Rica', 'France'],
-    'Balkan Countries': ['Croatia', 'Greece', 'Albania', 'Montenegro']
+    'WW2 Leaders First Names': ['Winston', 'Joseph', 'Franklin', 'Adolf'],
+    'College Mascot Names': ['Alberta', 'Uga', 'Osceola', 'Buzz'],
+    '3 Named Assassins Middle Names': ['Harvey', 'Earl', 'Wilkes', 'David'],
+    'Olympic Gold Medalists Last Names': ['Bolt', 'White', 'Douglas', 'Ohno']
     // Add more categories and words as needed
 };
 
